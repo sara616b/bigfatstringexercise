@@ -9,7 +9,7 @@ let output;
 function start() {
   console.log("start");
 
-  // click on button -> generate outout
+  // click on button -> generate output
   document.querySelector("button").addEventListener("click", generateOutput);
 }
 
