@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+#interface,
+h1 {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+
+#interface section {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 10px 10px 0;
+}
+
+p {
+  padding-right: 10px;
+}
+
+output {
+  background-color: rgb(231, 231, 231);
+  border: solid rgb(134, 134, 134) 1px;
+  padding: 5px;
+}
